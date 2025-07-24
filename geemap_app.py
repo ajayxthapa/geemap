@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_folium import folium_static
-import geemap.eefolium as geemap
+import geemap
+# import geemap.eefolium as geemap
 import ee
 
 # os.environ["EARTHENGINE_TOKEN"] == st.secrets["EARTHENGINE_TOKEN"]
