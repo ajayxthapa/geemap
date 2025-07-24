@@ -8,8 +8,7 @@ with st.echo():
     import streamlit as st
     from streamlit_folium import folium_static
     import ee
-    # import geemap.eefolium as geemap
-    import geemap
+    import geemap.foliumap as geemap
 
     m = geemap.Map()
 
